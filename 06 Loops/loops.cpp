@@ -32,5 +32,18 @@ int main() {
       ++iteration;
    } while (iteration <= 5);
 
+   // break :
+   // the break statement terminates the loop when it is encountered.
+
+   for (int i = 1; i <= 5; i++) {
+      // break condition     
+      if (i == 3) {
+         break;
+      }
+      cout << i << endl;
+   }
+
+
+
    return 0;
 }
